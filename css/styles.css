@@ -109,8 +109,9 @@
   justify-content: center;
   gap: 20px;
 }
-.services {
-  background-color: #9f0f0f;
+.services .row {
+  display: flex;
+gap: 20px;
 }
 .services p {
   text-align: center;
