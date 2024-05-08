@@ -109,7 +109,7 @@
                 </div>
                 <!-- Contact Section Form-->
                 <div class="row justify-content-center">
-                    <div class="col-lg-8 col-xl-7">
+                    <div class="col-lg-8 col-xl-7 d-flex flex-column">
                         <form id="contactForm">
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
@@ -145,8 +145,8 @@
 
                             <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
                     
-                            <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit"> Envoyer </button>
                         </form>
+                        <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit"> Envoyer </button>
                     </div>
                 </div>
             </div>
@@ -188,7 +188,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Oh My Food</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-5">Oh My Food</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -197,11 +197,13 @@
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/ohmyfood.jpeg" alt="..." />
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-5">Oh My Food est un projet qui à été réalisé en Html,CSS,et Javascript. Il s'agit d'une interface utilisateur pour les restaurateurs, afin de publier en ligne leurs menus.   </p>
-                                    <a href="https://brico97442.github.io/OhMyFood/" target="_blank">Visiter le site</a>
+                                    <div class="d-flex flex-column">
+                                    <a href="https://brico97442.github.io/OhMyFood/" target="_blank" class="mb-">
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Fermer
+                                        Visiter le site
                                     </button>
+                                    </a>
+                                     </div>
                                 </div>
                             </div>
                         </div>
@@ -219,22 +221,59 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Nina Carducci Photographe</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-5">Nina Carducci Photographe</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/ninacarducci.jpeg" alt="..." />
                                     <!-- Portfolio Modal - Text-->
+
                                     <p class="mb-5">Ce site présente le travail de Nina Carducci ,une jeune photographe talentueuse et passionnée. Ce projet portait , sur l'optimisation SEO ,l'amélioration des performances du site ,et la mise en place des google rich snippets et des métadonnées pour les réseaux sociaux. Le tout contrôlé par un audit de performace Light House</p>
-                                    <a href="https://brico97442.github.io/NinaCarducci/" target="_blank">Visiter le site</a>
+
+                                    <div class="d-flex flex-column"></div>    
+                                    <a href="https://brico97442.github.io/NinaCarducci/" target="_blank">
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Fermer
+                                        Visiter le site
                                     </button>
+                                    </a>
+                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-5">Nina Carducci Photographe</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/ninacarducci.jpeg" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+
+                                    <p class="mb-5">Ce site présente le travail de Nina Carducci ,une jeune photographe talentueuse et passionnée. Ce projet portait , sur l'optimisation SEO ,l'amélioration des performances du site ,et la mise en place des google rich snippets et des métadonnées pour les réseaux sociaux. Le tout contrôlé par un audit de performace Light House</p>
+
+                                    <div class="d-flex flex-column"></div>    
+                                    <a href="https://brico97442.github.io/NinaCarducci/" target="_blank">
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        Visiter le site
+                                    </button>
+                                    </a>
+                                     </div>
                                 </div>
                             </div>
                         </div>
