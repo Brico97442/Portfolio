@@ -10968,7 +10968,7 @@ html {
 }
 
 .masthead {
-  padding-top: calc(6rem + 74px);
+  padding-top: calc(6rem +  180px);
   padding-bottom: 6rem;
 }
 .masthead .masthead-heading {
@@ -10983,9 +10983,22 @@ html {
   width: 15rem;
 }
 
+
+
+@media (max-width: 992px) {
+  .masthead .container{
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .masthead {
+    padding-top: calc(6rem + 40px);
+    padding-bottom: 6rem;
+  }
+}
+
 @media (min-width: 992px) {
   .masthead {
-    padding-top: calc(6rem + 104px);
+    padding-top: calc(6rem + 170px);
     padding-bottom: 6rem;
   }
   .masthead .masthead-heading {
@@ -10995,6 +11008,7 @@ html {
   .masthead .masthead-subheading {
     font-size: 1.5rem;
   }
+
 }
 .portfolio .portfolio-item {
   cursor: pointer;
