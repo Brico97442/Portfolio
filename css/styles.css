@@ -91,6 +91,24 @@
   }
 }
 
+.icons{
+  display: flex;
+  max-width: 100px;
+  max-width: 100px;
+  width: 100%;
+  height: 100%;
+}
+
+.icons img{
+  object-fit: contain;
+}
+
+.competences-icons{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
