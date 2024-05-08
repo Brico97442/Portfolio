@@ -109,6 +109,10 @@
   justify-content: center;
 }
 
+.services p {
+  text-align: center;
+}
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
