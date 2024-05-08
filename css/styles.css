@@ -94,7 +94,7 @@
 .icons{
   display: flex;
   max-width: 100px;
-  max-width: 100px;
+  max-height: 100px;
   width: 100%;
   height: 100%;
 }
@@ -105,10 +105,13 @@
 
 .competences-icons{
   display: flex;
-  gap: 20px;
+  flex-wrap: wrap;
   justify-content: center;
+  gap: 20px;
 }
-
+.services {
+  background-color: #9f0f0f;
+}
 .services p {
   text-align: center;
 }
