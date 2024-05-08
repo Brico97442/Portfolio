@@ -103,15 +103,17 @@
   object-fit: contain;
 }
 
-.competences-icons{
+.competences .competences-icons{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 50px;
   gap: 20px;
 }
 .services .row {
   display: flex;
-gap: 20px;
+  gap: 40px;
+  margin-top: 50px;
 }
 .services p {
   text-align: center;
