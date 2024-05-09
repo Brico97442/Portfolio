@@ -170,38 +170,31 @@
                 <div class="row d-flex justify-content-center">
                     <div class="col-lg-8 col-xl-7 d-flex flex-column">
                         <form id="contactForm" class="d-flex flex-column" >
+
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="user_name" name="user_name" type="text" required placeholder="Enter your name..."  />
-                                <label for="name">Nom Complet</label>
+                                <label for="name" class="ms-2">Nom complet</label>
                                 <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
                             </div>
+                            
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="email" type="email" name="user_email" required placeholder="name@example.com"  />
-                                <label for="email">Adresse Email</label>
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                                <label for="email" class="ms-2">Adresse email</label>
                             </div>
 
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="subject" type="text" placeholder="Sujet" required/>
-                                <label for="subject">Sujet</label>
+                                <label for="subject" class="ms-2">Sujet</label>
                                 <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
                             </div>
+                            
                             <div class="form-floating mb-3">
                                 <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" required></textarea>
-                                <label for="message">Message</label>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                                <label for="message" class="ms-2">Message</label>
                             </div>
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3">
-                                    <div class="fw-bolder">Votre Message a bien été envoyé</div>
-
-                                </div>
-                            </div>
-                            <div class="d-none" id="submitErrorMessage">
-                                <div class="text-center text-danger mb-3">Error sending message!</div>
-                            </div>
+                            
                             <button class="btn btn-primary btn-xl" id="submitButton" type="submit" onclick="sendMail()"> Envoyer </button>
+                        
                         </form>
                     </div>
                 </div>
