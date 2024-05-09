@@ -52,3 +52,26 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+function sendMail (){
+    let parms ={
+        user_name : document.getElementById("user_name").value,
+        email : document.getElementById("email").value,
+        subject : document.getElementById("subject").value,
+        message : document.getElementById("email").value,
+    }
+
+    emailjs.send("service_m5cmqly","template_mm758gb",parms)
+    .then(function () {
+        alert("Message envoyé");
+        // Réinitialiser les champs du formulaire après l'envoi réussi
+        document.getElementById("user_name").value = "";
+        document.getElementById("email").value = "";
+        document.getElementById("subject").value = "";
+        document.getElementById("message").value = "";
+    })
+    .catch(function (error) {
+        console.error('Échec de l\'envoi de l\'email :', error);
+        alert("Une erreur s'est produite lors de l'envoi du message.");
+    });
+}
